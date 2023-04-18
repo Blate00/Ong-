@@ -137,3 +137,97 @@ background: #2fd709;
     width: 20%;
     height: 100%;
 }
+
+.formulario{
+    color: grey;
+    background-color: #18181A;
+    border: 2px solid grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-size: cover;
+    width: 66%;
+    margin-left: 340px;
+    
+   
+    
+}
+
+.title-f{
+   text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+
+.formulario h3{
+    text-align: center;
+    color:grey;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.formulario input{
+  margin-left: 20px;
+  margin-right: 20px;
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fffefe;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  
+    border-top-right-radius: 20px;
+}
+
+
+.formulario label{
+    color:white;
+    width: 100%;
+    margin-left: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.formulario button{
+    background-color:#26282c;
+    width: 20%;
+    height: 45px;
+     margin-left: 320px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.mensaje {
+    margin-left: 27px ;
+
+    
+}
+.mensaje label{
+    margin-left: -6px;
+    box-sizing: border-box;
+}
+.texto_mensaje{
+    width: 97.5%;
+    height: 50px;
+    background-color:#26282c;
+}
+
+.cajita{
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 90px;
+  height: 31px;
+}
