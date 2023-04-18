@@ -5,10 +5,10 @@ body{
     margin-bottom: 0%;
     margin:0px;
     padding:0px;
-    background: #299e29;
+    background: #f7d6d6;
 
 }.izquierda{
-background: #328427;
+background: #2fd709;
     width: 18%;
     height: 100%;
     color:white;
@@ -51,8 +51,9 @@ background: #328427;
 }
 
 .cabecera{
+    background: #2fd709;
     margin-left: 18%;
-    border-left:2px solid #262628;
+    
     padding-top: 2%;
     padding-left: 2%;
     padding-right: 2%;
