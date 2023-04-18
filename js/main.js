@@ -9,8 +9,6 @@ var c = a+b;
 return c
 }
 
-window.alert("Bienvenido coxino conchetumare en esta wea vamo a traficar chihuahuas entero cornotao xorooooo");
-
 function cambiarColorImagen(idImagen, nuevoColor) {
     const imagen = document.getElementById(idImagen);
     imagen.style.filter = `hue-rotate(${nuevoColor}deg)`;
