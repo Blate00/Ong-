@@ -1,42 +1,25 @@
-function cambiarContenido(){
-    return "Que pasa coxino culiao"
-}
+const wraper = document.querySelector('.wraper');
+const loginLink = document.querySelector('.login-link');
+const registerLink = document.querySelector('.register-link');
+const botonPop = document.querySelector('.botonlogin');
+const iconClose= document.querySelector('.icon-close');
 
-function Sumar(a,b){
-var a=10;
-var b=10;
-var c = a+b;
-return c
-}
 
-window.alert("Bienvenido coxino conchetumare en esta wea vamo a traficar chihuahuas entero cornotao xorooooo");
 
-function cambiarColorImagen(idImagen, nuevoColor) {
-    const imagen = document.getElementById(idImagen);
-    imagen.style.filter = `hue-rotate(${nuevoColor}deg)`;
-  }
-  
-  function sumar() {
+registerLink.addEventListener('click', ()=>{
+    wraper.classList.add('active');
+});
 
-    var num1 = document.getElementById("numero1").value;
-    var num2 = document.getElementById("numero2").value;
-    num1 = parseInt(num1);
-    num2 = parseInt(num2); 
-    var resultado = num1 + num2;
-    document.getElementById("resultado").innerHTML = resultado;}
+loginLink.addEventListener('click', ()=>{
+    wraper.classList.remove('active');
+});
 
-    function validar() {
-      var email = document.getElementById("email").value;
-      if (validarEmail(email)) {
-        document.getElementById("mensaje").innerHTML = "La dirección de correo electrónico es válida.";
-      } else {
-        document.getElementById("mensaje").innerHTML = "La dirección de correo electrónico no es válida.";
-      }
-    }
+botonPop.addEventListener('click', ()=>{
+    wraper.classList.add('active-boton');
+});
 
-    function validarEmail(email) {
-      var expresion = /^[^\s()<>,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
-      return expresion.test(email);
-    }
+iconClose.addEventListener('click', ()=>{
+    wraper.classList.remove('active-boton');
+});
 
 
