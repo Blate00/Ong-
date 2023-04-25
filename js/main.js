@@ -64,3 +64,16 @@ function cambiarColorImagen(idImagen, nuevoColor) {
 
 
 
+    $(document ).ready( function(){
+      $("#enviar").click(function(){
+        $.get("www.themealdb.com/api/json/v1/1/categories.php",
+        function(data){
+          $.each(data.categorias,function(i,item){
+            $("#categorias").append("<tr><td>"+item.idCategory +"</td><td>"+item.strCategory +"</td><td><img src='"+item.strCategoryThumb+"'>"+"</td><td>"+item.strCategoryDescription+"</td></tr>");
+      
+          });
+        });
+      });
+      
+      
+  });
